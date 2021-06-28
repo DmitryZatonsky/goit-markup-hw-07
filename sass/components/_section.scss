@@ -14,8 +14,8 @@
   text-align: center;
 
   color: var(--title-text-color);
-}
 
-.section__title .heading {
-  color: var(--title-text-color);
+  & .heading {
+    color: var(--title-text-color);
+  }
 }

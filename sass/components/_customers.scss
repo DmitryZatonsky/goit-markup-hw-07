@@ -11,10 +11,10 @@
   height: 92px;
   justify-content: center;
   align-items: center;
-}
 
-.customers__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .customers__link {
@@ -28,12 +28,12 @@
   fill: var(--static-color-svg-icons);
 
   transition: 250ms fill cubic-bezier(0.4, 0, 0.2, 1), 250ms border cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.customers__link:hover,
-.customers__link:focus {
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .customers__icon {
